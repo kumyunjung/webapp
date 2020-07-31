@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+
+<?php
+$conn=mysqli_connect("localhost", "yuunjuun", "gmdals9278!", "yuunjuun");
+
+session_start();
+
+if(isset($_SESSION['name'])){
+    echo "<h2>{$_SESSION['name']}님 환영합니다.</h2>";
+?>
+<a href="login_out.html">로그아웃</a>
+<?php
+}else{
+    echo "<script>alert('잘못된 접근입니다.');history.back();</script>";
+}
+?>
