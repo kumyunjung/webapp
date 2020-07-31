@@ -68,6 +68,8 @@ form>div>input {
     background: rgb(231, 231, 231);
 }
 
+
+
 form>div>label {
     color: white;
     margin-bottom: 5px;
@@ -100,10 +102,19 @@ form>span {
 }
 
 #checkId {
-    margin-bottom: 20px;
-    margin-top: 20px;
+
+    margin-top: 10px;
     color: white;
+    font-size: 1rem;
+    background-color: red;
 }
+
+#address {
+    margin-top: 10px;
+}
+
+
+
 
 /* #inputId {
     height: 20px;

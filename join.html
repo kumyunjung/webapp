@@ -6,12 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="css/join.css">
+    <script>
+        function check_Id() {
+
+            const id = document.querySelector("#uid").value;
+            if (id) {
+                url = "check.php?id=" + id;
+                window.open(url, "checkId", "width=300px, height=100px");
+            } else {
+                alert('아이디를 입력하세요');
+            }
+        }
+    </script>
 </head>
 
 <body>
     <div id="wrap">
         <header>
-            <a href="https://www.netflix.com/kr/"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </header>
 
         <body>
@@ -19,7 +31,8 @@
                 <form method="post" action="join_ok.php">
                     <div>
                         <label for="id">아이디</label>
-                        <input type="text" id="id" name="id">
+                        <input type="text" id="uid" name="id">
+                        <input type="button" value="중복검사" id="checkId" onclick="check_Id();">
                         <!-- <div id="inputId">
                             <p id="writeId"><small>아이디를 입력해주세요</small></p>
                         </div> -->
@@ -36,12 +49,12 @@
                         <label for="phone">전화번호</label>
                         <input type="text" name="phone" id="phone">
 
-                        <label for="address_form">우편번호</label>
+                        <label for="zipcode">우편번호</label>
                         <input type="text" name="zipcode" id="zipcode">
-                        <label for="address_form">주소</label>
+                        <label for="address">주소</label>
                         <input type="text" name="address1" id="" placeholder="도로명주소">
-                        <input type="text" name="address2" id="" placeholder="지번주소">
-                        <input type="text" name="address3" id="" placeholder="상세주소">
+                        <input type="text" name="address2" id="address" placeholder="지번주소">
+                        <input type="text" name="address3" id="address" placeholder="상세주소">
 
                     </div>
                     <!-- <input type="checkbox" name="" id="checkId" checked>
