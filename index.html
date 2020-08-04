@@ -19,15 +19,8 @@
                     <div>
                         <label for="id">아이디</label>
                         <input type="text" id="id" name="user_id" required>
-                        <div id="inputId">
-                            <p id="writeId"><small>아이디를 입력해주세요</small></p>
-                        </div>
-
                         <label for="pwd">비밀번호</label>
                         <input type="password" name="user_pass" id="pwd" required>
-                        <div id="inputPwd">
-                            <p id="writePwd"><small>비밀번호를 입력해주세요</small></p>
-                        </div>
                     </div>
                     <input type="checkbox" name="" id="checkId" checked>
                     <span>아이디 저장</span>
@@ -41,30 +34,6 @@
             </div>
         </main>
     </div>
-    <script>
-        const btn = document.querySelector("#btn")
-        const writeId = document.querySelector("#writeId")
-        const writePwd = document.querySelector("#writePwd")
-
-        btn.addEventListener('click', () => {
-            if (id.value == "") {
-                writeId.style.display = "block"
-                id.focus()
-                return false;
-
-            } else {
-                writeId.style.display = "none"
-            }
-            if (pwd.value == "") {
-                writePwd.style.display = "block"
-                pwd.focus()
-                return false;
-
-            } else {
-                writePwd.style.display = "none"
-            }
-        })
-    </script>
 </body>
 
 </html>
