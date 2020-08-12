@@ -10,6 +10,7 @@
         <h1>관리자모드 첫화면</h1>
         <ul>
             <li><a href="shop_edit.php">기본정보관리</a></li>
+            <li><a href="design.php">메인디자인관리</a></li>
             <li><a href="cafe_list.php">맛집목록관리</a></li>
             <li><a href="member_list.php">회원관리</a></li>
         </ul>
