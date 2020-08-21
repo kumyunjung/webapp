@@ -1,0 +1,47 @@
+/* 스타일 시트 */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+b,
+ul,
+li,
+form,
+article,
+aside,
+footer,
+header,
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}

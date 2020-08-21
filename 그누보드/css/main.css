@@ -1,0 +1,101 @@
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 98px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.h-inner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 160px;
+
+}
+
+/* 메인이미지 */
+
+#banner {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    height: 970px;
+
+}
+
+.item1 {
+    background: url('../img/main1.jpg') no-repeat center 0;
+}
+
+.item2 {
+    background: url('../img/main2.jpg') no-repeat center 0;
+}
+
+.slide-item {
+    height: 970px;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-txt {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 60px;
+}
+
+.slide-txt span {
+    color: #ff0000;
+}
+
+.s-txt {
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* section */
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+.inner1 {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 200;
+    position: relative;
+}
+
+h3 span {
+    font-weight: bold;
+}
