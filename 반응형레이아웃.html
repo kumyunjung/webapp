@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #container {
+            width: 940px;
+            margin: 0px auto; /* 가운데 정렬하겠다. */
+            padding: 20px;
+            border: 1px solid #bcbcbc; 
+        }
+
+        #header {
+            padding: 20px;
+            border: 1px solid #bcbcbc;
+            margin-bottom: 20px;
+        }
+
+        #content {
+            width: 580px;
+            padding: 20px;
+            margin-bottom: 20px;
+            float: left;
+            border: 1px solid #bcbcbc;
+        }
+        #sidebar {
+            width: 260px;
+            padding: 20px;
+            margin-bottom: 20px;
+            float: right;
+            border: 1px solid #bcbcbc;
+        }
+
+        #footer {
+            clear: both; /* 오른쪽 왼쪽 float 속성 취소시킴. */
+            padding: 20px;
+            border: 1px solid #bcbcbc;
+        }
+
+        @media (max-width: 580px) {
+            #container {
+                width: auto;
+            }
+
+            #content {
+                float: none;
+                width: auto;
+            }
+
+            #sidebar {
+                float: none;
+                width: auto;
+            }
+        }
+
+    </style>
+    
+    <title>반응형 레이아웃</title>
+</head>
+<body>
+
+    <!-- 전체 -->
+    <div id="container">
+        <div id="header">
+            <h1>헤드</h1>
+        </div>
+
+        <div id="content">
+            <h2>본문</h2>
+            <p>동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세</p>
+            <p>무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세</p>
+        </div>
+
+        <div id="sidebar">
+            <h2>사이드바</h2>
+            <ul>
+                <li>메뉴1</li>
+                <li>메뉴2</li>
+                <li>메뉴3</li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            <p>푸터</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+<!-- 레이아웃 정의 8월 26일 -->
+<!-- 
+    2단 레이아웃
+    3단 레이아웃
+    반응형 레이아웃
+ -->
