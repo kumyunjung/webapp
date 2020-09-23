@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .content1 {
+            background: url(zzzzzz.png) no-repeat center top fixed;
+            background-size: cover;
+        }
+
+        .content2 {
+            background: url(zzzzzz.png) no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<!-- 
+        scrollspy : body 요소 스크롤 가능 영역
+        data-target : .navbar의 ID or 클래스 이름
+    -->
+
+<body data-spy="scroll" data-offset="50" data-target="#navbar-scroll">
+
+
+    <!-- 
+        container-fluid : 전체 폭 컨테이너 100%
+    -->
+
+    <div class="container-fluid">
+
+        <!-- 헤더 -->
+
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" id="navbar-scroll" role="navigation">
+                <div>
+                    <div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#collapseNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <a href="#" class="navbar-brand">로고</a>
+                    </div>
+                    <!-- PC 메뉴 시작 -->
+                    <div class="collapse navbar-collapse" id="collapseNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a href="#home">home</a></li>
+                            <li class="nav-item"><a href="#intro">Intro</a></li>
+                            <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 헤더 부분 끝 -->
+
+        <!-- 메인 슬라이드 이미지 시작 -->
+        <div class="carousel slide" id="carousel-generic">
+            <ul class="carousel-indicators">
+                <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-generic" data-slide-to="2"></li>
+            </ul>
+
+            <!-- 메인 이미지 들어가는 자리 -->
+
+            <div class="carousel-inner">
+                <div class="item">
+                    <img src="cat1.jpg" width="800">
+                </div>
+                <div class="item">
+                    <img src="cat2.jpg" width="800">
+                </div>
+                <div class="item">
+                    <img src="cat3.jpg" width="800">
+                </div>
+            </div>
+            <!-- 좌우 컨트롤 버튼 -->
+            <a href="#carousel-generic" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carousel-generic" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- 메인 슬라이드 끝 -->
+
+        <!-- 본문 1 -->
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <!-- 
+                        col-xs / col-md- 
+                        나란히 정렬되어 있는 아이콘을 모바일에서 쌓이게 만드는 클래스 
+                    -->
+                    <a href="#">
+                        <div>
+                            <span class="fas fa-heart"></span>
+                        </div>
+                        <div>
+                            <h4>텍스트1</h4>
+                            <p>텍스트를 입력하는 곳입니다.</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-3">
+                    <a href="#">
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <h4>텍스트1</h4>
+                            <p>텍스트를 입력하는 곳입니다.</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-3">
+                    <a href="#">
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <h4>텍스트1</h4>
+                            <p>텍스트를 입력하는 곳입니다.</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-3">
+                    <a href="#">
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <h4>텍스트1</h4>
+                            <p>텍스트를 입력하는 곳입니다.</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- 메인 아이콘 4개 끝 -->
+
+        <!--  인트로 -->
+        <div id="Intro">
+            <!-- 
+                인트로 클릭시 링크 
+            -->
+            <header class="content1">
+                <div class="container">
+                    <h1>도깨비 명언 1</h1>
+                    <p>신은 그저 질문하는 자일 뿐, 운명은 내가 던지는 질문이다.<br>
+                        답은 그대들이 찾아라.</p>
+                </div>
+            </header>
+
+            <div class="container">
+                <h1></h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="">
+                    </div>
+
+                    <div class="col-8">
+                        <p>신은 그저 질문하는 자일 뿐,</p>
+                        <p>운명은 내가던지는 질문이다.</p>
+                        <p>답은 그대들이 찾아라.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio"></div>
+            <div>
+                <header class="content2">
+                    <div class="container">
+                        <h1>Portfolio</h1>
+                        <p>아무말대잔치</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
