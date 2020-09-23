@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- 네이게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- 로고 -->
+            <a href="index.html" class="navbar-brand">Start Bootstrap</a>
+            <!-- 모바일일때 햄버거 아이콘 생성 -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- 드롭다운메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="portfolio1.html">포트폴리오1</a>
+                            <a class="dropdown-item" href="portfolio2.html">포트폴리오2</a>
+                            <a class="dropdown-item" href="portfolio3.html">포트폴리오3</a>
+                            <a class="dropdown-item" href="portfolio4.html">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="blog1.html">블로그1</a>
+                            <a class="dropdown-item" href="blog2.html">블로그2</a>
+                            <a class="dropdown-item" href="blog3.html">블로그3</a>
+                            <a class="dropdown-item" href="blog4.html">블로그4</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인이미지 시작 -->
+    <header>
+        <div id="carousel_img" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel_img" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_img" data-slide-to="1"></li>
+                <li data-target="#carousel_img" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image:url('http://placehold.it/1900x1800')">
+                    <div class="carousel-caption">
+                        <h3>First Slide</h3>
+                        <p>Voluptate ea amet proident reprehenderit laborum pariatur ad</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('http://placehold.it/1900x1800')">
+                    <div class="carousel-caption">
+                        <h3>Second Slide</h3>
+                        <p>Voluptate ea amet proident reprehenderit laborum pariatur ad</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('http://placehold.it/1900x1800')">
+                    <div class="carousel-caption">
+                        <h3>Third Slide</h3>
+                        <p>Voluptate ea amet proident reprehenderit laborum pariatur ad</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#carousel_img" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carousel_img" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </header>
+    <!-- 메인 이미지 끝 -->
+
+    <div class="container">
+        <h1 class="my-4">Veniam labore do elit id.</h1>
+        <!-- my : 마진 top bottom 4만큼 -->
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Mollit sit aliquip laborum anim labore ipsum minim ipsum id sunt.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Mollit sit aliquip laborum anim labore ipsum minim ipsum id sunt.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Mollit sit aliquip laborum anim labore ipsum minim ipsum id sunt.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row (공지사항) 끝 -->
+
+        <!-- 포트폴리오 섹션 -->
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 2</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 3</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 4</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 5</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 6</a>
+                        </h4>
+                        <p class="card-text">Et anim magna culpa id quis.Quis do consectetur aliquip dolore dolore
+                            proident veniam ut commodo excepteur aute dolor aliquip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 포트폴리오 끝 -->
+
+        <!-- 본문 시작 -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Business Features</h2>
+                <p>Aute consequat amet officia commodo fugiat laboris sint cillum est aliquip tempor sunt.</p>
+                <ul>
+                    <li><strong>Bootstrap v4</strong></li>
+                    <li>jquery</li>
+                    <li>font awesome</li>
+                    <li>working contact from</li>
+                    <li>element for easy</li>
+                </ul>
+                <p>Velit adipisicing laboris qui aute quis enim proident eu occaecat laborum velit quis duis.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="http://placehold.it/700x450" alt="image" class="img-fluid rounded">
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <p>Anim laboris cillum laborum enim dolor exercitation elit amet.</p>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-secondary btn-block">Call to Action</a>
+            </div>
+        </div>
+    </div>
+    <!-- 본문 끝 -->
+
+    <!-- 푸터 -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

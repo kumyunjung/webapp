@@ -1,0 +1,39 @@
+.carousel-item {
+    background: no-repeat center center scroll;
+    background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+}
+
+.card {
+    background: no-repeat center center scroll;
+    background-size: cover;
+
+
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.profile1 {
+    height: 100%;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+
+}
+
+.card-portfolio {
+    height: 400px;
+}
+
+.card-img {
+    height: 211px;
+}
+
+body {
+    padding-top: 55px;
+}

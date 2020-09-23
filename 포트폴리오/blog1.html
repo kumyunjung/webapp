@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- 네이게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- 로고 -->
+            <a href="index.html" class="navbar-brand">Start Bootstrap</a>
+            <!-- 모바일일때 햄버거 아이콘 생성 -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- 드롭다운메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="portfolio1.html">포트폴리오1</a>
+                            <a class="dropdown-item" href="portfolio2.html">포트폴리오2</a>
+                            <a class="dropdown-item" href="portfolio3.html">포트폴리오3</a>
+                            <a class="dropdown-item" href="portfolio4.html">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="blog1.html">블로그1</a>
+                            <a class="dropdown-item" href="blog2.html">블로그2</a>
+                            <a class="dropdown-item" href="blog3.html">블로그3</a>
+                            <a class="dropdown-item" href="blog4.html">블로그4</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- portfolio content -->
+    <div class="container">
+        <h1 class="mt-4 mb-3">Portfolio<small>Subheading</small></h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Portfolio 4</li>
+        </ol>
+
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Post -->
+                <div class="card mb-4">
+                    <img src="http://placehold.it/750x300" alt="Card" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Post Title</h2>
+                        <p class="card-text">Enim proident proident ea irure veniam consectetur quis ad officia et.</p>
+                        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on January 1, 2020 by <a href="#">Start Bootstrap</a>
+                    </div>
+                </div>
+                <!-- Post -->
+                <!-- Post -->
+                <div class="card mb-4">
+                    <img src="http://placehold.it/750x300" alt="Card" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Post Title</h2>
+                        <p class="card-text">Enim proident proident ea irure veniam consectetur quis ad officia et.</p>
+                        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on January 1, 2020 by <a href="#">Start Bootstrap</a>
+                    </div>
+                </div>
+                <!-- Post -->
+                <!-- 페이징 -->
+                <ul class="pagination justify-content-center mb-4">
+                    <li class="page-item">
+                        <a href="#" class="page-link">&larr;Previous</a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a href="#" class="page-link">Newer &rarr;</a>
+                    </li>
+                </ul>
+                <!-- 페이징 끝 -->
+            </div>
+
+            <!-- 사이드바 -->
+            <div class="col-md-4">
+                <!-- 검색 -->
+                <div class="card mb-4">
+                    <h5 class="card-header">Search</h5>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="search">
+                            <span class="input-group-append">
+                                <button class="btn btn-secondary" type="button">Go</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 검색 끝 -->
+
+                <!-- category -->
+                <div class="card my-4">
+                    <h5 class="card-header">Category</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">New Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">New Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- category -->
+                <!-- side -->
+                <div class="card my-4">
+                    <h5 class="card-header">Side Widget</h5>
+                    <div class="card-body">
+                        Consectetur minim exercitation incididunt occaecat. Tempor excepteur adipisicing in velit esse
+                        et elit. Sint tempor sunt proident commodo ea in velit elit. Nulla mollit ex culpa dolor laborum
+                        commodo sunt aliqua. Aute sunt officia elit exercitation velit aliquip commodo laboris labore
+                        tempor duis ex ad anim. Nulla id cillum velit qui exercitation nostrud. Laborum ad fugiat irure
+                        reprehenderit cillum consequat culpa dolore esse ipsum quis magna eiusmod.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- 푸터 -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

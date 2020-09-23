@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- 네이게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- 로고 -->
+            <a href="index.html" class="navbar-brand">Start Bootstrap</a>
+            <!-- 모바일일때 햄버거 아이콘 생성 -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- 드롭다운메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="portfolio1.html">포트폴리오1</a>
+                            <a class="dropdown-item" href="portfolio2.html">포트폴리오2</a>
+                            <a class="dropdown-item" href="portfolio3.html">포트폴리오3</a>
+                            <a class="dropdown-item" href="portfolio4.html">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="blog1.html">블로그1</a>
+                            <a class="dropdown-item" href="blog2.html">블로그2</a>
+                            <a class="dropdown-item" href="blog3.html">블로그3</a>
+                            <a class="dropdown-item" href="blog4.html">블로그4</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- portfolio content -->
+    <div class="container">
+        <h1 class="mt-4 mb-3">Portfolio<small>Subheading</small></h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Portfolio 2</li>
+        </ol>
+
+        <div class="row">
+            <!-- 프로젝트1 -->
+            <div class="col-lg-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Nostrud officia sit tempor ad proident.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Nostrud officia sit tempor ad proident.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 프로젝트1 끝 -->
+            <!-- 프로젝트2 -->
+            <div class="col-lg-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 2</a>
+                        </h4>
+                        <p class="card-text">Nostrud officia sit tempor ad proident.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="http://placehold.it/700x400" alt="image" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 2</a>
+                        </h4>
+                        <p class="card-text">Nostrud officia sit tempor ad proident.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 프로젝트2 끝 -->
+        </div>
+
+        <!-- 페이징 -->
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a href="#" class="page-link">
+                    <span>&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">
+                    <span>&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+    <!-- 푸터 -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
